@@ -2,7 +2,7 @@ const msg = ["You only live once!", "Believe in yourself", "Work hard play hard"
 
 const generateMessage = Arr => {
     let message = Arr[Math.floor(Math.random() * Arr.length)];
-    console.log(message, Arr.indexOf(message));
+    console.log(message);
 }
 
 generateMessage(msg);
